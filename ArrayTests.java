@@ -38,4 +38,11 @@ public class ArrayTests {
     double[] input1 = { 2.0 , 2.0 , 4.0};
     assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 0.0001);
   }
+
+  @Test
+  public void testForAverageLength2()
+  {
+    double[] input1 = { 2.0 , 3.0 , 4.0};
+    assertEquals(3.5, ArrayExamples.averageWithoutLowest(input1), 0.0001);
+  }
 }
